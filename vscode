@@ -1,0 +1,28 @@
+/*
+
+  Customize VSCode sidebar and menubar fonts
+
+  ** Need Custom CSS and JS Loader to work **
+  - https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
+
+  ** Full instructions **
+  - https://github.com/be5invis/vscode-custom-css#getting-started
+
+*/
+
+.split-view-view > .sidebar > .content > .viewlet {
+  font-family: "Jetbrains Mono";
+  letter-spacing: -1px;
+}
+
+.split-view-view>.sidebar> .title > .title-label > h2 {
+    font-family: "Jetbrains Mono";
+    font-weight: bold;
+    font-size: 12px;
+ }
+
+.menubar-menu-title {
+    font-family: "Jetbrains Mono";
+    font-weight: bold;
+    font-size: 11px;
+ }
