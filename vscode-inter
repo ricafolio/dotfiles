@@ -1,0 +1,51 @@
+/*
+
+  Customize VSCode sidebar and menubar fonts: Inter Edition
+
+  ** Need Custom CSS and JS Loader to work **
+  - https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
+
+  ** Full instructions **
+  - https://github.com/be5invis/vscode-custom-css#getting-started
+
+*/
+
+:root {
+  --font-family: "Inter", "Jetbrains Mono";
+}
+
+/* LEFT SIDE BAR */
+.split-view-view > .sidebar > .content > .viewlet {
+  font-family: var(--font-family);
+}
+
+.split-view-view > .sidebar> .title > .title-label > h2 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 12px;
+ }
+
+.label-name {
+  font-family: var(--font-family);
+  font-size: 11.5px;
+}
+
+/* TOP */
+.menubar-menu-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.menubar-menu-title,
+.menubar-menu-title:hover {
+  border-radius: 0;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label a, .monaco-workbench .part.editor>.content .editor-group-container>.title .title-label a {
+  font-size: 12px;
+}
+
+.menubar-menu-items-holder, .search-label {
+  font-family: var(--font-family);
+}
